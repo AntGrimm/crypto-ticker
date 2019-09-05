@@ -38,7 +38,7 @@ const HomePage = () => {
                     key={j}
                     name={coin.name}
                     symbol={coin.symbol}
-                    price={coin.quotes.USD.price}
+                    price={coin.quotes.USD.price.toFixed(2)}
                   />
                 </tr>
               )
